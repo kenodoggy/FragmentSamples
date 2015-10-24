@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Pembroke Welsh Corgi",
+    "image": "corgi",
+    "description" : "Smart and alert, affectionate but not pushy, bold but kindly."
+  },
+  {
+    "title": "Dachshund",
+    "image": "dachshund",
+    "description" : "Spunky, curious, friendly."
+  },
+  {
+    "title": "Golden Retriever",
+    "image": "golden_retriever",
+    "description" : "Intelligent, friendly, and devoted."
+  },
+  {
+    "title": "Pomeranian",
+    "image": "pomeranian",
+    "description" : "Lively, bold, and inquisitive—a prototypical \"personality breed\"."
+  },
+  {
+    "title": "Pug",
+    "image": "pug",
+    "description" : "Even-tempered, charming, mischievous and loving."
+  },
+  {
+    "title": "Yorkshire Terrier",
+    "image": "yorkie",
+    "description" : "Sprightly, tomboyish, and affectionate."
+  }
+]

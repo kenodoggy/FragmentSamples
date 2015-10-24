@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MasterDetailFlow</string>
+    <string name="title_puppy_detail">Puppy Detail</string>
+</resources>

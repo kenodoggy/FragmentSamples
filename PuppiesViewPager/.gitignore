@@ -1,0 +1,10 @@
+.gradle
+/local.properties
+/.idea
+*.iml
+*.iws
+*.ipr
+*.swp
+.DS_Store
+build
+/captures

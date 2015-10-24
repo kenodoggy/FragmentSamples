@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_corgi"
+            android:title="Pembroke Welsh Corgi"/>
+        <item
+            android:id="@+id/nav_dachshund"
+            android:title="Dachshund"/>
+        <item
+            android:id="@+id/nav_golden_retriever"
+            android:title="Golden Retriever"/>
+        <item
+            android:id="@+id/nav_pomeranian"
+            android:title="Pomeranian"/>
+        <item
+            android:id="@+id/nav_pug"
+            android:title="Pug"/>
+        <item
+            android:id="@+id/nav_yorkie"
+            android:title="Yorkshire Terrier"/>
+    </group>
+
+</menu>

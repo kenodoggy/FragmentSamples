@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PuppiesViewPager</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="puppies_array">
+        <item>Corgie</item>
+        <item>Dachshund</item>
+        <item>Golden Retriever</item>
+        <item>Pomeranian</item>
+        <item>Pug</item>
+        <item>Yorkie</item>
+    </string-array>
+
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

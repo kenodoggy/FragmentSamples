@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DialogFragment</string>
+    <string name="activity_main_title_text">DialogFragment Example</string>
+    <string name="activity_main_btn_hello_text">Hello</string>
+    <string name="activity_main_btn_goodbye_text">Goodbye</string>
+    <string name="fragment_sample_dialog_txt_hello">Hello There!</string>
+    <string name="fragment_sample_dialog_txt_goodbye">Goodbye!</string>
+    <string name="fragment_sample_dialog_title_text1">DialogFragment Example 1</string>
+    <string name="fragment_sample_dialog_title_text2">DialogFragment Example 2</string>
+
+    <string name="close">CLOSE</string>
+</resources>
