@@ -40,12 +40,8 @@ public class PuppyDetailActivity extends AppCompatActivity {
             // Create the detail fragment and add it to the activity
             // using a fragment transaction.
             Bundle arguments = new Bundle();
-            /* delete
-            arguments.putInt(PuppyDetailFragment.ARG_POSITION,
-                    getIntent().getIntExtra(PuppyDetailFragment.ARG_POSITION, 0));*/
             int pos = getIntent().getIntExtra(PuppyDetailFragment.ARG_POSITION, 0);
             PuppyDetailFragment fragment = PuppyDetailFragment.newInstance(pos);
-            // delete fragment.setArguments(arguments);
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.puppy_detail_container, fragment)
                     .commit();

@@ -22,19 +22,17 @@ public class MainActivity extends AppCompatActivity {
         mPuppyTitles = getResources().getStringArray(R.array.puppies_array);
 
         initViewPager();
-        setupViewPager(mViewPager);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
-
     }
 
     private void initViewPager() {
         mViewPager = (ViewPager) findViewById(R.id.container);
-        setupViewPager(mViewPager);
+        setupViewPager();
     }
 
-    private void setupViewPager(ViewPager viewPager) {
+    private void setupViewPager() {
         final ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
 
         /* add the Fragments to the ViewPagerAdapter */
@@ -43,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             adapter.addFrag(PuppyFragment.newInstance(index++), title);
         }
 
-        viewPager.setAdapter(adapter);
+        mViewPager.setAdapter(adapter);
     }
 
 }

@@ -41,8 +41,6 @@ public class MainActivity extends AppCompatActivity
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setHomeButtonEnabled(true);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mDrawerToggle = new ActionBarDrawerToggle(
@@ -158,18 +156,24 @@ public class MainActivity extends AppCompatActivity
         int id = menuItem.getItemId();
         int pos = 0;
 
-        if (id == R.id.nav_corgi) {
-            pos = 0;
-        } else if (id == R.id.nav_dachshund) {
-            pos = 1;
-        } else if (id == R.id.nav_golden_retriever) {
-            pos = 2;
-        } else if (id == R.id.nav_pomeranian) {
-            pos = 3;
-        } else if (id == R.id.nav_pug) {
-            pos = 4;
-        } else if (id == R.id.nav_yorkie) {
-            pos = 5;
+        switch (id) {
+            case R.id.nav_corgi :
+                pos = 0;
+                break;
+            case R.id.nav_dachshund :
+                pos = 1;
+                break;
+            case R.id.nav_golden_retriever :
+                pos = 2;
+                break;
+            case R.id.nav_pomeranian :
+                pos = 3; break;
+            case R.id.nav_pug : pos = 4;
+                break;
+            case R.id.nav_yorkie :
+                pos = 5;
+                break;
+            default : break;
         }
 
         updateDetailContainer(pos);
